@@ -1,0 +1,94 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+div .order-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-height: auto;
+  min-height: 8.5rem;
+}
+
+.order-card .row {
+  margin-right: 0px;
+}
+
+div .order-card .row img {
+  margin: 18px 0px 0px 18px;
+  min-width: 6rem;
+  min-height: 6rem;
+  max-height: 6rem;
+  max-width: 6rem;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 9px;
+}
+
+.order-card .row .card-text {
+  font-family: fantasy;
+  font-weight: 600;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.order-card .row .card-title {
+  /* border: 1px solid red; */
+  margin: 14px 0px 0px 0px;
+  padding: 5px 5px 5px 5px;
+  font-size: 1.3rem;
+  font-weight: 550;
+  text-align: left;
+  color: var(--orange-color);
+}
+
+.order-card .card-counter {
+  position: relative;
+  left: 20px;
+  margin-top: 10px;
+  /* width: 100%; */
+  margin-bottom: 1.5rem;
+  /* border: 1px solid blue; */
+}
+.order-card .card-counter .counter-button {
+  color: var(--black-color);
+  border-radius: 10px;
+  height: 2rem;
+  width: 3.5rem;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.order-card .card-counter span {
+  margin: 5px 10px;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+/* div.col-6.card-text > div.row.card-price {
+  margin: 7px 0px 0px 14px;
+  color: darkcyan;
+  font-size: 1rem;
+  font-weight: 500;
+} */
+
+/* .order-card .row .card-delete {
+  height: 8rem;
+  width: 1rem;
+  border-radius: 0 10px 10px 0;
+  background-color: rgb(255, 196, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.order-card .row .card-delete i {
+  color: white;
+  font-size: 1.3rem;
+  position: relative;
+  top: calc(40%);
+  transition: all 0.3s ease-in-out;
+}  */
