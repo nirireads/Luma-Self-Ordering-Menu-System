@@ -1,0 +1,73 @@
+div .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-height: 8rem;
+  min-height: 8rem;
+}
+
+.card .row {
+  margin-right: 0px;
+}
+
+div .card .row img {
+  margin: 14px 0px 0px 14px;
+  min-width: 6rem;
+  min-height: 6rem;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 9px;
+}
+
+.card .row .card-text {
+  font-family: fantasy;
+}
+
+.card .row .card-title {
+  margin: 14px 0px 0px 0px;
+  padding: 5px 5px 5px 14px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.card .card-counter {
+  position: relative;
+  left: 70px;
+}
+.card .card-counter .counter-button {
+  border-radius: 10px;
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+}
+
+.card .card-counter span {
+  /* color:green; */
+  margin: 2px;
+  padding: 0;
+}
+
+div.col-6.card-text > div.row.card-price {
+  /* border: 1px solid blue; */
+  margin: 7px 0px 0px 14px;
+  color: darkcyan;
+  /* padding: 5px 5px 5px 14px; */
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card .row .card-delete {
+  height: 8rem;
+  width: 1rem;
+  border-radius: 0 10px 10px 0;
+  background-color: rgb(255, 196, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.card .row .card-delete i {
+  color: white;
+  font-size: 1.3rem;
+  position: relative;
+  top: calc(40%);
+  transition: all 0.3s ease-in-out;
+}

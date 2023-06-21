@@ -1,0 +1,50 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+.order-card {
+  margin-bottom: 4.5rem;
+  padding: 0rem 1rem;
+}
+
+.order-card .order-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--black-color);
+  margin: 1rem 0 1rem .2rem;
+}
+
+.order-card .order-item{
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: .5px 2px 3px gray;
+    display: flex;
+    padding: 12px 15px;
+}
+
+.order-card .order-item .order-img img{
+    min-height: 5rem;
+    max-height: 5rem;
+    min-width: 5rem;
+    max-width: 5rem;
+    border-radius: 10px;
+}
+
+.order-card .order-content{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.order-card .order-content .order-name{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.order-card .order-content .order-qty{
+    color: var(--orange-color);
+}

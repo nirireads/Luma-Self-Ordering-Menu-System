@@ -1,0 +1,37 @@
+.user-container .table-container {
+  text-align: center;
+}
+
+.user-container .user-profile {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.user-container .profile-img {
+  display: inline-block;
+}
+
+.user-container .profile-username {
+  display: block;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: 0.02cm;
+  margin-top: 1rem;
+}
+
+.user-container .profile-contact {
+  letter-spacing: 0.02cm;
+  margin-top: 1rem;
+}
+.user-container .profile-logout {
+  letter-spacing: 0.02cm;
+  width: 55%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 23px;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 10rem;
+}

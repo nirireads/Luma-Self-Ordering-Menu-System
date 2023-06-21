@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.screen {
+  /* background: linear-gradient(90deg, #5D54A4, #7C78B8);		 */
+  position: relative;
+  top: 4rem;
+  border-radius: 25px;
+  height: 550px;
+  width: 350px;
+  /* border: 1px solid red; */
+  box-shadow: 0px 0px 24px #5c5696;
+}
+
+.container .screen .logo-container {
+  /* border: 1px solid black; */
+  position: relative;
+  top: 4rem;
+  justify-content: center;
+  padding-left: 37%;
+}
+
+.container .screen .logo-container .logo img{
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid var(--lightOrange-color);
+  /* background-color: var(--black-color); */
+  /* color: white; */
+  /* font-weight: 400; */
+  /* font-size: 1.3rem; */
+  /* padding-top: 1.4rem; */
+  /* padding-left: 0.7rem; */
+  /* letter-spacing: 0.09cm; */
+}
+
+.login {
+  width: 340px;
+  padding: 30px;
+  padding-top: 100px;
+  margin-left: 25px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__icon {
+  position: absolute;
+  top: 33.5px;
+  margin-left: 15px;
+  color: var(--lightOrange-color);
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid var(--lightOrange-color);
+  box-shadow: 0px 0px 24px var(--pink-color);
+  padding: 10px;
+  padding-left: 40px;
+  font-weight: 700;
+  width: 85%;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: var(--orange-color);
+}
+
+.login__submit {
+  background: var(--lightOrange-color);
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 15px 20px;
+  border-radius: 26px;
+  border: 1px solid var(--yellow-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 85%;
+  color: white;
+  box-shadow: 0px 2px 2px var(--lightOrange-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: var(--orange-color);
+  outline: none;
+}
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: white;
+}
