@@ -1,0 +1,67 @@
+:root {
+    --black-color: #454545;
+    --orange-color: #ff6000;
+    --lightOrange-color: #ffa559;
+    --pink-color: #ffe6c7;
+    --yellow-color: #ffd93d;
+    --blue-color: #4287f5;
+    --green-color: #33cc33;
+    --purple-color: #a45cff;
+    --red-color: #ff3333;
+    --teal-color: #00cccc;
+  }
+
+.orderSummary-container{
+    background-color: white;
+    width: max-content;
+    border: .1px groove var(--yellow-color);
+    border-radius: 10px;
+    padding: .8rem;
+    margin-left: 1rem;
+    box-shadow:4px 5px 10px var(--yellow-color);
+}
+
+.orderSummary-container .title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--black-color);
+    padding: 15px 0 5px 0;
+}
+
+.orderSummary-component, .orderSummary-table-component{
+    display: inline-block;
+}
+
+.orderSummary-component button{
+    background-color: white;
+    /* box-shadow: 4px 6px 10px var(--yellow-color); */
+    height: 8rem;
+    width: 8rem;
+    margin: .9rem;
+    border: none;
+    border: .1px groove var(--yellow-color);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.orderSummary-component .orderSummary-top{
+    margin-top: -5px;   
+}
+
+.orderSummary-top .orderSummary-number{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--green-color);
+}
+
+
+.orderSummary-component .orderSummary-middle{
+    height: 3rem;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    /* padding-top: .5rem; */
+    color: var(--black-color);
+}

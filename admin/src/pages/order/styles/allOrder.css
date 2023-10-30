@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 1rem;
+  height: 93vh;
+  border: 1px groove var(--orange-color);
+  box-shadow: 1px 2px 3px var(--lightOrange-color);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.grid-item {
+  border-radius: 10px;
+}
+
+.item1 {
+  grid-column: 1 ;
+  grid-row: 1 / span 2;
+  padding: auto;
+  height: 20rem;
+}
+
+.item2 {
+  grid-column: 2;
+  grid-row: 1 ;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 3 ;
+  width: max-content;
+  height: max-content;
+}
+.item4 {
+  grid-column: 2;
+  grid-row: 2 / span 2;
+  width: max-content;
+  height: max-content;
+}

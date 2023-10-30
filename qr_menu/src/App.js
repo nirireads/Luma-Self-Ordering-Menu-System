@@ -1,25 +1,27 @@
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 
-// import BottomNavbar from "./components/bottomNavbar";
-import Menu from './components/menu';
-// import Order from "./components/order";
-// import User from "./components/user";
+import BottomNavbar from "./components/bottomNavbar";
+import Order from './pages/orderPage/order';
+import Menu from "./pages/menuPage/menu";
+import Invoice from "./pages/invoicePage/invoice";
+import ErrorPage from './pages/errorPage';
 
 import ContextApp from "./contexts/mainContext";
-// import OrderContextApp from "./contexts/orderContext";
 
 function App() {
   return (
     <div className="App">
-      <ContextApp>
-        <Switch>
-          {/* <Route path="/order" component={Order} /> */}
-          {/* <Route path="/user" component={User} /> */}
-          <Route path="/" exact component={Menu} />
-        </Switch>
-      </ContextApp>
-      {/* <BottomNavbar /> */}
+      <Switch>
+        <ContextApp>
+          <Route path="/invoice" component={Invoice} />
+          <Route path="/order" component={Order} />
+          <Route path="/" component={Menu} exact />
+
+          <Route path="/error" component={ErrorPage} />
+          <BottomNavbar />
+        </ContextApp>
+      </Switch>
     </div>
   );
 }

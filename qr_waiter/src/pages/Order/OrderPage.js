@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useContext } from 'react';
 import "./OrderPage.css";
 import dine from './dine.png';
 
@@ -15,8 +15,6 @@ function OrderPage() {
             quantity: menuItem.counter,
         };
 
-        console.log("order added", orderData);
-
         fetch(API_ENDPOINT + 'api/addorder/', {
             method: 'POST',
             headers: {
@@ -27,7 +25,7 @@ function OrderPage() {
             .then((response) => {
                 if (response.ok) {
                     console.log('Order added successfully');
-                    //       // Perform any necessary actions after successful order creation
+                    // fetchUpdatedData();
                 } else {
                     throw new Error('Failed to add order');
                 }
@@ -37,6 +35,23 @@ function OrderPage() {
                 // Handle the error scenario
             });
     };
+
+    // const fetchUpdatedData = async () => {
+    //     try {
+    //         // Fetch the updated menu items
+    //         const response1 = await fetch(API_ENDPOINT + '/api/dish');
+    //         const updatedMenuItems = await response1.json();
+    //         setMenuItems(updatedMenuItems);
+    
+    //         // Fetch the updated orders
+    //         const response2 = await fetch(API_ENDPOINT + 'api/getorder/');
+    //         const updatedOrders = await response2.json();
+    //         setOrders(updatedOrders);
+    //     } catch (error) {
+    //         console.error(error);
+    //         // Handle the error scenario
+    //     }
+    // };
 
     const handleCounterChange = (menuItem, value) => {
         // Update the counter of the menu item
@@ -69,12 +84,11 @@ function OrderPage() {
                     return <Redirect to="/" />;
                 } else {
                     return (
-
                         <div className="menu-card">
                             <div className="menu-items">
                                 {menuItems.map((item) => (
                                     <div key={item.id} className="menu-item">
-                                        <img src={`${API_ENDPOINT}${item.cover}`} className='menu-card-image' />
+                                        <img src={`${API_ENDPOINT}${item.cover}`} alt={item.name} className='menu-card-image' />
                                         <div className="item-info">
                                             <span className="menu-card-name">{item.name}</span>
 
@@ -93,7 +107,9 @@ function OrderPage() {
                                                 </button>
                                             </div>
                                         </div>
-                                        <button className='menu-card-add-button' onClick={() => handleOrderAdd(item)}>Add</button>
+                                        <button className='menu-card-add-button' onClick={() => handleOrderAdd(item)}>
+                                            <i className="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
                                     </div>
                                 ))}
                             </div>

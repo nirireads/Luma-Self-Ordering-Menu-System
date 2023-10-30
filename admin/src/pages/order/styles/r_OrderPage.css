@@ -1,0 +1,92 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+div .rOrderPage-container {
+  border-radius: 10px;
+  margin: 2rem 1rem;
+  min-height: 93vh;
+  border: 1px groove var(--orange-color);
+  box-shadow: 1px 2px 3px var(--lightOrange-color);
+}
+
+div .rOrderPage-container .title span {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: white;
+  background-color: var(--yellow-color);
+  padding: 5px 20px;
+  margin-left: 1rem;
+  border-radius: 25%;
+}
+
+.rOrderPage-container .tableWrap {
+  box-shadow: 1px 2px 3px var(--lightOrange-color);
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  height: 62vh;
+}
+
+.rOrderPage-container button {
+  color: var(--black-color);
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: lightgreen;
+  width: 12rem;
+  height: 4rem;
+  border-width: 0px 2px 4px;
+  border-color: greenyellow;
+  transition: 0.1s;
+}
+
+.rOrderPage-container button:hover {
+  background-color: greenyellow;
+  border-color: green;
+  cursor: pointer;
+}
+
+.rOrderPage-container button:focus {
+  outline: 0;
+}
+
+.rOrderPage-container button:active {
+  transition: 0.1s;
+  border-width: 2px;
+}
+
+/* structure */
+.rOrderPage-container .r2-container {
+  padding: 2rem 2rem 2rem 3rem;
+  max-width: 100%;
+  max-height: 90vh;
+  min-height: 90vh;
+}
+
+.rOrderPage-container .r2-container .title {
+  text-align: left;
+  color: var(--black-color);
+  margin-bottom: 2rem;
+}
+
+.rOrderPage-container .tableWrap::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+}
+
+/* Styles for the scrollbar thumb (the draggable handle) */
+.rOrderPage-container .tableWrap::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Hover styles for the scrollbar thumb */
+.rOrderPage-container .tableWrap::-webkit-scrollbar-thumb:hover {
+  background-color: var(--black-color); /* color of the thumb on hover */
+}

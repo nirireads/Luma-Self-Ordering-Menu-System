@@ -1,0 +1,65 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+.restaurant-container {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.restaurant-container .title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--black-color);
+}
+
+.restaurant-container .restaurant-table {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.7rem;
+  margin-top: 2.5rem;
+  min-height: 84vh;
+  max-height: 84vh;
+  overflow: auto;
+}
+
+.restaurant-container .restaurant-table .qrTable {
+  display: inline-block;
+}
+
+/* Styles for the scrollbar track */
+.restaurant-table::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+}
+
+/* Styles for the scrollbar thumb (the draggable handle) */
+.restaurant-table::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Hover styles for the scrollbar thumb */
+.restaurant-table::-webkit-scrollbar-thumb:hover {
+  background-color: var(--black-color); /* color of the thumb on hover */
+}
+
+/* =======    QR code   ======= */
+
+.qrcode__container {
+  background-color: white;
+  height: 80vh;
+  border-radius: 25px;
+  padding: 70px;
+}
+
+.qrcode__container input {
+  /* border: none; */
+  width: 19rem;
+  padding: 5px 10px;
+}
+
+.qrcode__container button {
+  padding: 5px 15px;
+  border-radius: 10px;
+}

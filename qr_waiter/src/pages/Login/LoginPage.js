@@ -2,12 +2,13 @@ import React, { useContext, useState } from "react";
 import "./LoginPage.css";
 import { AuthContext } from '../../contexts/AuthContext';
 import { Redirect } from "react-router-dom";
+import ErrorDialog from './../../components/errorDialog';
 
 function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
-  const { authenticateUser, user } = useContext(AuthContext);
+ 
+  const { authenticateUser, user , error, closeErrorDialog} = useContext(AuthContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,7 +44,6 @@ function LoginPage() {
                 type="password"
                 className="login__input"
                 placeholder="Password"
-                // name="password"
                 valule={password}
                 required
                 onChange={(e) => setPassword(e.target.value)}
@@ -58,6 +58,7 @@ function LoginPage() {
             </button>
           </form>
         </div>
+        {error && <ErrorDialog message={error} onClose={closeErrorDialog} />}
       </div>
     );
   }

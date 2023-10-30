@@ -15,40 +15,29 @@ const ContextApp = ({ children }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // GET TABLE
-        const response1 = await fetch(API_ENDPOINT + "api/gettable/");
-        const data1 = await response1.json();
-        setTables(data1);
+        const [tableResponse, orderResponse, menuResponse] = await Promise.all([
+          fetch(API_ENDPOINT + "api/gettable/").then((response) => response.json()),
+          fetch(API_ENDPOINT + "api/getorder/").then((response) => response.json()),
+          fetch(API_ENDPOINT + "/api/dish").then((response) => response.json()),
+        ]);
 
-        // GET ORDERS
-        const response2 = await fetch(API_ENDPOINT + "api/getorder/");
-        const data2 = await response2.json();
-        setOrders(data2);
-
-        // GET ORDERED ITEMS
-        const response3 = await fetch(API_ENDPOINT + "/api/dish");
-        const data3 = await response3.json();
-        setMenuItems(data3);
+        setTables(tableResponse);
+        setOrders(orderResponse);
+        setMenuItems(menuResponse);
       } catch (error) {
         console.error(error);
       }
     };
 
     fetchData();
-  }, []);
+  }, [API_ENDPOINT]);
 
   const getOrderTime = (tableNo) => {
     const order = orders.find((order) => order.table === tableNo);
-    if (order) {
-      const datetimeString = order.order_time;
-      const dateObj = new Date(datetimeString);
-      const timeString = dateObj.toLocaleTimeString([], { timeStyle: "short" });
-      return timeString;
-    }
-    return null;
+    return order ? new Date(order.order_time).toLocaleTimeString([], { timeStyle: "short" }) : null;
   };
 
-  let contextData = {
+  const contextData = {
     API_ENDPOINT,
     selectedTable,
     setSelectedTable,
@@ -62,7 +51,7 @@ const ContextApp = ({ children }) => {
     setMenuItems,
     getOrderTime,
   };
-  
+
   return (
     <MainContext.Provider value={contextData}>
       {children}

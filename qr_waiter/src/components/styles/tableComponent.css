@@ -1,86 +1,83 @@
 :root {
-    --black-color: #454545;
-    --orange-color: #ff6000;
-    --lightOrange-color: #ffa559;
-    --pink-color: #ffe6c7;
-    --yellow-color: #ffd93d;
-  }
-
-.table-component, .empty-table-component{
-    display: inline-block;
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
 }
 
-.table-component button, .empty-table-component button{
-    background-color: white;
-    box-shadow:4px 6px 4px var(--pink-color);
-    height: 8rem;
-    width: 8rem;
-    margin: .5rem;
-    /* border: none; */
-    border: 2px solid gray;
-    border-radius: 10px;
+.table-component,
+.empty-table-component {
+  display: inline-block;
 }
 
-.empty-table-component button{
-    background-color: var(--pink-color);
+.table-component button,
+.empty-table-component button {
+  background-color: white;
+  box-shadow: 1px 2px 3px var(--pink-color);
+  height: 6.1rem;
+  width: 6.1rem;
+  margin: 0.4rem;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
-
-.table-component .table-top{
-    height: 2rem;
+.empty-table-component button {
+  background-color: var(--pink-color);
 }
 
-.empty-table-component .table-top{
-    height: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    gap:1.9rem;
+.table-component .table-top {
+  height: 2rem;
 }
 
-.empty-table-component .table-top .table-number{
-    margin-left: 0;
+.empty-table-component .table-top {
+  height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.9rem;
 }
 
-
-.table-top .table-number{
-    display: inline-block;
-    position: relative;
-    font-weight: 600;
-    font-size: 1.3rem;
-    margin-left: 50%;
-    color: var(--black-color);
+.empty-table-component .table-top .table-number {
+  margin-left: 0;
 }
 
-.table-top .people-icon{
-    margin-top: 4px;
-    display: inline-block;
-    color: var(--lightOrange-color);
+.table-top .table-number {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-left: 50%;
+  color: var(--black-color);
 }
 
+.table-top .people-icon {
+  margin-top: 4px;
+  display: inline-block;
+  color: var(--lightOrange-color);
+}
 
-
-.table-component .table-middle, .empty-table-component .table-middle{
-    /* border: 1px solid red; */
-    height: 3rem;
-    justify-content: center;
-    display: flex;
-    font-weight: 600;
-    padding-top: .5rem;
-    font-size: 1.1rem;
-
-    color: var(--orange-color);
+.table-component .table-middle,
+.empty-table-component .table-middle {
+  /* border: 1px solid red; */
+  height: 3rem;
+  justify-content: center;
+  display: flex;
+  font-weight: 600;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--orange-color);
 }
 
 .empty-table-component .table-middle {
-    height: 3rem;
+  height: 3rem;
 }
 
-.table-component .table-bottom, .empty-table-component .table-bottom{
-    height: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: .7rem;
-    font-weight: 550;
-    color:var(--black-color)
+.table-component .table-bottom,
+.empty-table-component .table-bottom {
+  height: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.7rem;
+  font-weight: 550;
+  color: var(--black-color);
 }
-

@@ -51,7 +51,23 @@ function BottomNavbar() {
         </Link>
       </li>
 
-    
+      <li className="nav-item p-2">
+        <Link
+          className={`nav-link ${
+            activeLink === "u_order" ? "active bg-warning bg-dark" : ""
+          }`}
+          to="/u_viewTable"
+          onClick={() => setActiveLink("u_order")}
+        >
+          <i
+            className="fa fa-cutlery"
+            aria-hidden="true"
+            style={{ color: "orange" }}
+          ></i>
+        </Link>
+      </li>
+
+
       <li className="nav-item p-2">
         <Link
           className={`nav-link ${

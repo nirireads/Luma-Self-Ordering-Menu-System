@@ -1,0 +1,99 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+.menuContainer {
+  background-color: white;
+  height: 93vh;
+  border-radius: 10px;
+  margin: 2rem 1rem;
+  padding: 50px 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menuContainer .title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--black-color);
+  margin-bottom: 40px;
+}
+
+.menuContainer form {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menuContainer form input {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid var(--pink-color);
+}
+
+.menuContainer form select {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--pink-color);
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menuContainer form textarea {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  min-height: 8rem;
+  border: 1px solid var(--pink-color);
+  padding: 0.8rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  margin-top: 5px;
+  resize: none;
+}
+
+.menuContainer form input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid var(--orange-color);
+}
+
+.menuContainer form .form-button {
+  display: flex;
+  justify-content: end;
+}
+.menuContainer form button {
+  font: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--yellow-color);
+  color: white;
+  height: 4rem;
+  width: 12rem;
+  padding: 10px;
+  border-style: none;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+  /* margin-left: 79%; */
+}
+
+.menuContainer form button:hover {
+  background-color: var(--orange-color);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,43 @@
+.order-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.order-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.order-details {
+  margin-left: 20px;
+}
+
+.order-name {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.order-quantity {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--orange-color);
+  font-weight: bold;
+}
+
+.no-order-msg {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+}

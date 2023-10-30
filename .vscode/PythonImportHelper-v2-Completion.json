@@ -1,0 +1,1629 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "base.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base.models",
+        "description": "base.models",
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "DishModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "WaiterModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderBackupModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerOrderModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "DishModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "WaiterModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderBackupModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerOrderModel",
+        "importPath": "base.models",
+        "description": "base.models",
+        "isExtraImport": true,
+        "detail": "base.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "transaction",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "JSONRenderer",
+        "importPath": "rest_framework.renderers",
+        "description": "rest_framework.renderers",
+        "isExtraImport": true,
+        "detail": "rest_framework.renderers",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.backend.asgi",
+        "description": "backend.backend.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.backend.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nfrom datetime import timedelta\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-!&er^cf^6-=b^0o$r=8-ld2w=u@!3==27pl6r!g2053j%dk)^j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-!&er^cf^6-=b^0o$r=8-ld2w=u@!3==27pl6r!g2053j%dk)^j'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'base.apps.BaseConfig',\n    'rest_framework',\n    'rest_framework_simplejwt',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n        'rest_framework.authentication.TokenAuthentication'\n    )\n}\nSIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(minutes=5),\n    \"REFRESH_TOKEN_LIFETIME\": timedelta(days=90),\n    \"ROTATE_REFRESH_TOKENS\": True,\n    \"BLACKLIST_AFTER_ROTATION\": True,\n    \"UPDATE_LAST_LOGIN\": False,\n    \"ALGORITHM\": \"HS256\",\n    # \"SIGNING_KEY\": settings.SECRET_KEY,  overwrite default settings\n    \"VERIFYING_KEY\": \"\",\n    \"AUDIENCE\": None,",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n#    Django CORS HEADERS\n    \"corsheaders.middleware.CorsMiddleware\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "ROOT_URLCONF = 'backend.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'backend.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOWED_ORIGINS = [\n    # 3001 => Waiter \n    # 3002 => Menu\n    # 3003 => Restaurant",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOWED_ORIGINS = [\n    # 3001 => Waiter \n    # 3002 => Menu\n    # 3003 => Restaurant\n    \"http://localhost:3000\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOWED_ORIGINS = [\n    # 3001 => Waiter \n    # 3002 => Menu\n    # 3003 => Restaurant\n    \"http://localhost:3000\",\n    \"http://localhost:3001\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCORS_ALLOWED_ORIGINS = [\n    # 3001 => Waiter \n    # 3002 => Menu\n    # 3003 => Restaurant\n    \"http://localhost:3000\",\n    \"http://localhost:3001\",\n    \"http://localhost:3002\",\n    \"http://localhost:3003\",\n    # \"http://192.168.18.17:3000\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    # 3001 => Waiter \n    # 3002 => Menu\n    # 3003 => Restaurant\n    \"http://localhost:3000\",\n    \"http://localhost:3001\",\n    \"http://localhost:3002\",\n    \"http://localhost:3003\",\n    # \"http://192.168.18.17:3000\",\n    \"http://192.168.1.74:3000\",",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.backend.urls",
+        "description": "backend.backend.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('base.api.urls')),\n]\nurlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "backend.backend.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.backend.wsgi",
+        "description": "backend.backend.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.backend.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'first_name', 'last_name']\nclass DishSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = DishModel\n        fields = '__all__'\nclass WaiterSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DishSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class DishSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = DishModel\n        fields = '__all__'\nclass WaiterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = WaiterModel\n        fields = '__all__'\nclass TableSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "WaiterSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class WaiterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = WaiterModel\n        fields = '__all__'\nclass TableSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Table\n        fields = '__all__'\nclass OrderSerializer(serializers.ModelSerializer):\n    menu_item = serializers.PrimaryKeyRelatedField(queryset=DishModel.objects.all())",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TableSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class TableSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Table\n        fields = '__all__'\nclass OrderSerializer(serializers.ModelSerializer):\n    menu_item = serializers.PrimaryKeyRelatedField(queryset=DishModel.objects.all())\n    class Meta:\n        model = Order\n        fields = '__all__'\nclass OrderBackupSerializer(serializers.ModelSerializer):",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class OrderSerializer(serializers.ModelSerializer):\n    menu_item = serializers.PrimaryKeyRelatedField(queryset=DishModel.objects.all())\n    class Meta:\n        model = Order\n        fields = '__all__'\nclass OrderBackupSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = OrderBackupModel\n        fields = '__all__'\nclass CustomerOrderSerializer(serializers.ModelSerializer):",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderBackupSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class OrderBackupSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = OrderBackupModel\n        fields = '__all__'\nclass CustomerOrderSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CustomerOrderModel\n        fields = '__all__'",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerOrderSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.serializers",
+        "description": "backend.base.api.serializers",
+        "peekOfCode": "class CustomerOrderSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CustomerOrderModel\n        fields = '__all__'",
+        "detail": "backend.base.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.base.api.urls",
+        "description": "backend.base.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.getRoutes),\n    #Admin Authentication   \n    path('token/', MyTokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    # Dish\n    path('dish/',views.Dish.as_view()),\n    path('dish/<int:pk>', views.Dish.as_view()),\n    # Waiter \n    path('authenticate/', views.authenticate_waiter, name='authenticate_waiter'),",
+        "detail": "backend.base.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "MyTokenObtainPairSerializer",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class MyTokenObtainPairSerializer(TokenObtainPairSerializer):\n    @classmethod\n    def get_token(cls, user):\n        token = super().get_token(user)\n        # Add custom claims\n        token['username'] = user.username\n        # ...\n        return token\nclass MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyTokenObtainPairView",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class MyTokenObtainPairView(TokenObtainPairView):\n    serializer_class = MyTokenObtainPairSerializer\n@api_view(['GET'])\ndef getRoutes(request):\n    routes = [\n        '/api/token',\n        '/api/token.refresh',\n    ]\n    return Response(routes)\n# ================= ADMIN AUTHENTICATION ===================#",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Dish",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class Dish(APIView):\n    def get(self, request, pk=None):\n        if pk is not None:\n            try:\n                dish = DishModel.objects.get(pk=pk)\n                serializer = DishSerializer(dish)\n                return Response(serializer.data, status=status.HTTP_200_OK)\n            except DishModel.DoesNotExist:\n                return Response({'message': 'Dish not found'}, status=status.HTTP_404_NOT_FOUND)\n        else:",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Waiter",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class Waiter(APIView):\n    def get(self, request):\n        waiterObj = WaiterModel.objects.all()\n        waiterSerializeObj = WaiterSerializer(waiterObj, many=True)\n        return Response(waiterSerializeObj.data)\n    def post(self, request):\n        waiterSerializeObj = WaiterSerializer(data=request.data)\n        if waiterSerializeObj.is_valid():\n            waiterSerializeObj.save()\n            return Response({'message': 'Data saved successfully'})",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderStatistics",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class OrderStatistics(APIView):\n    def get(self, request):\n        # Filter orders with the state 'Dining'\n        dining_orders = Order.objects.filter(table__state='Dining')\n        # Calculate the total number of 'Dining' orders\n        total_dining_orders = dining_orders.count()\n        # Calculate the total revenue for 'Dining' orders\n        total_dining_revenue = sum(order.menu_item.price for order in dining_orders)\n        # Create a response dictionary\n        response_data = {",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerOrderListView",
+        "kind": 6,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "class CustomerOrderListView(generics.ListAPIView):\n    serializer_class = CustomerOrderSerializer\n    def get_queryset(self):\n        table_number = self.request.query_params.get('table')\n        if table_number is not None:\n            return CustomerOrderModel.objects.filter(table=table_number)\n        return CustomerOrderModel.objects.all()",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_table",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_table(request):\n    tables = Table.objects.all()\n    serializer = TableSerializer(tables, many=True)\n    return Response(serializer.data)\nfrom django.db import transaction\n@csrf_exempt\ndef update_table_order_state(request, table_id):\n    if request.method == 'POST':\n        try:\n            data = json.loads(request.body)",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_table_order_state",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def update_table_order_state(request, table_id):\n    if request.method == 'POST':\n        try:\n            data = json.loads(request.body)\n            new_order_state = data.get('newOrderState')\n            new_state = data.get('newState')\n            # Retrieve the table instance\n            table = Table.objects.get(id=table_id)\n            if table:\n                # Update the order_state if new_order_state is provided",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_order(request):\n    orders = Order.objects.all()\n    serializer = OrderSerializer(orders, many=True)\n    return Response(serializer.data)\n@api_view(['GET'])\ndef get_order_bytable(request, tableNo):\n    # Filter orders by the provided table number\n    orders = Order.objects.filter(table=tableNo)\n    serializer = OrderSerializer(orders, many=True)\n    return Response(serializer.data)",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_order_bytable",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_order_bytable(request, tableNo):\n    # Filter orders by the provided table number\n    orders = Order.objects.filter(table=tableNo)\n    serializer = OrderSerializer(orders, many=True)\n    return Response(serializer.data)\n# Add Order\n@api_view(['POST'])\ndef add_order_all(request):\n    orders_data = request.data  # Assuming it's an array of orders\n    try:",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_order_all",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def add_order_all(request):\n    orders_data = request.data  # Assuming it's an array of orders\n    try:\n        for order_data in orders_data:\n            table_no = order_data.get('table')\n            menu_item_id = order_data.get('menuItem')\n            counter = order_data.get('quantity')\n            table = Table.objects.get(table_no=table_no)\n            menu_item = DishModel.objects.get(id=menu_item_id)\n            order, created = Order.objects.get_or_create(",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def add_order(request):\n    table_no = request.data.get('table')\n    menu_item_id = request.data.get('menuItem')\n    counter = request.data.get('quantity')\n    try:\n        table = Table.objects.get(table_no=table_no)\n        menu_item = DishModel.objects.get(id=menu_item_id)\n        order, created = Order.objects.get_or_create(\n            table=table, menu_item=menu_item)\n        order.counter = counter",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def delete_order(request, order_id):\n    try:\n        order = Order.objects.get(pk=order_id)\n        order.delete()\n        return Response({'message': 'Order deleted successfully'}, status=status.HTTP_204_NO_CONTENT)\n    except Order.DoesNotExist:\n        return Response({'error': 'Order not found'}, status=status.HTTP_404_NOT_FOUND)\n    except Exception as e:\n        return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)\n# ============== Order ================ #",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "getRoutes",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def getRoutes(request):\n    routes = [\n        '/api/token',\n        '/api/token.refresh',\n    ]\n    return Response(routes)\n# ================= ADMIN AUTHENTICATION ===================#\n# =========== M E N U =========== #\nclass Dish(APIView):\n    def get(self, request, pk=None):",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_waiter",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def authenticate_waiter(request):\n    try:\n        data = json.loads(request.body)\n        username = data.get('username')\n        password = data.get('password')\n        # Retrieve waiter from the database based on the provided username\n        try:\n            waiter = WaiterModel.objects.get(username=username)\n        except WaiterModel.DoesNotExist:\n            waiter = None",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_order_backup",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def create_order_backup(request):\n    try:\n        serializer = OrderBackupSerializer(data=request.data)\n        if serializer.is_valid():\n            serializer.save()\n            return Response({'message': 'Order backup created successfully'}, status=status.HTTP_201_CREATED)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\n    except Exception as e:\n        return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)\n#================ Order Backup ============================ #",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "TableStatistics",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def TableStatistics(request):\n    try:\n        # Count the tables with each order state\n        order_count = Table.objects.filter(order_state='Order').count()\n        cook_count = Table.objects.filter(order_state='Cook').count()\n        prepared_count = Table.objects.filter(order_state='Prepared').count()\n        served_count = Table.objects.filter(order_state='Served').count()\n        # Return the statistics as JSON\n        data = {\n            'Order': order_count,",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_popular_items_by_revenue",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_popular_items_by_revenue(request, month, year):\n    month_number = datetime.strptime(month, '%B').month\n    try:\n        # Filter orders by month and year\n        orders = OrderBackupModel.objects.filter(order_time__month=month_number, order_time__year=year)\n        # Calculate revenue for each menu item and get the top 3 by revenue\n        popular_items = orders.values(\n            'menu_item__name',\n            menu_item__cover=F('menu_item__cover'),  # Assuming your Dish model has a 'cover' field\n        ).annotate(",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_popular_items_by_frequency",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_popular_items_by_frequency(request, month, year):\n    month_number = datetime.strptime(month, '%B').month\n    try:\n        # Filter orders by month and year\n        orders = OrderBackupModel.objects.filter(order_time__month=month_number, order_time__year=year)\n        # Calculate frequency for each menu item and get the top 3 by frequency\n        popular_items = orders.values(\n            'menu_item__name',\n            menu_item__cover=F('menu_item__cover'),  # Assuming your Dish model has a 'cover' field\n        ).annotate(",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_total_revenue",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_total_revenue(request, month, year):\n    try:\n        # Convert month name to month number (e.g., 'January' to 1)\n        month_number = datetime.strptime(month, '%B').month\n        # Filter orders by month and year\n        orders = OrderBackupModel.objects.filter(order_time__month=month_number, order_time__year=year)\n        # Calculate total revenue\n        total_revenue = sum(order.menu_item.price * order.counter for order in orders)\n        return Response({'total_revenue': total_revenue}, status=status.HTTP_200_OK)\n    except Exception as e:",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_customer_orders",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def get_customer_orders(request):\n    customer_orders = CustomerOrderModel.objects.all()\n    serializer = CustomerOrderSerializer(customer_orders, many=True)\n    return Response(serializer.data)\n@api_view(['POST'])\ndef add_customer_order(request):\n    table_no = request.data.get('table')\n    menu_item_id = request.data.get('menuItem')\n    counter = request.data.get('quantity')\n    try:",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "add_customer_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def add_customer_order(request):\n    table_no = request.data.get('table')\n    menu_item_id = request.data.get('menuItem')\n    counter = request.data.get('quantity')\n    try:\n        table = Table.objects.get(table_no=table_no)\n        menu_item = DishModel.objects.get(id=menu_item_id)\n        customer_order, created = CustomerOrderModel.objects.get_or_create(\n            table=table, menu_item=menu_item)\n        customer_order.counter = counter",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "update_customer_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def update_customer_order(request, order_id):\n    try:\n        customer_order = CustomerOrderModel.objects.get(pk=order_id)\n        new_counter = request.data.get('newCounter')\n        if new_counter is not None:\n            customer_order.counter = new_counter\n            customer_order.save()\n            return Response({'message': 'Customer order updated successfully'}, status=status.HTTP_200_OK)\n        else:\n            return Response({'error': 'Invalid input for counter'}, status=status.HTTP_400_BAD_REQUEST)",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_customer_order",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def delete_customer_order(request, order_id):\n    try:\n        customer_order = CustomerOrderModel.objects.get(pk=order_id)\n        customer_order.delete()\n        return Response({'message': 'Customer order deleted successfully'}, status=status.HTTP_204_NO_CONTENT)\n    except CustomerOrderModel.DoesNotExist:\n        return Response({'error': 'Customer order not found'}, status=status.HTTP_404_NOT_FOUND)\n    except Exception as e:\n        return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)\n@api_view(['POST'])",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_customer_order_all",
+        "kind": 2,
+        "importPath": "backend.base.api.views",
+        "description": "backend.base.api.views",
+        "peekOfCode": "def delete_customer_order_all(request):\n    try:\n        # Get a list of order IDs to delete from the request's JSON data\n        order_ids_to_delete = request.data.get('order_ids', [])\n        # Check if there are any order IDs to delete\n        if not order_ids_to_delete:\n            return Response({'error': 'No order IDs provided for deletion'}, status=status.HTTP_400_BAD_REQUEST)\n        # Use bulk delete to delete multiple customer orders at once\n        deleted_count, _ = CustomerOrderModel.objects.filter(pk__in=order_ids_to_delete).delete()\n        return Response({'message': f'{deleted_count} customer orders deleted successfully'}, status=status.HTTP_204_NO_CONTENT)",
+        "detail": "backend.base.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0001_initial",
+        "description": "backend.base.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Book\",\n            fields=[\n                (",
+        "detail": "backend.base.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0002_dishmodel_description_dishmodel_menu_category_and_more",
+        "description": "backend.base.migrations.0002_dishmodel_description_dishmodel_menu_category_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"dishmodel\",\n            name=\"description\",\n            field=models.TextField(default=\"description not available\"),\n        ),",
+        "detail": "backend.base.migrations.0002_dishmodel_description_dishmodel_menu_category_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0003_remove_dishmodel_serving_time_and_more",
+        "description": "backend.base.migrations.0003_remove_dishmodel_serving_time_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0002_dishmodel_description_dishmodel_menu_category_and_more\"),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name=\"dishmodel\",\n            name=\"serving_time\",\n        ),\n        migrations.RemoveField(",
+        "detail": "backend.base.migrations.0003_remove_dishmodel_serving_time_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0004_order_order_time_alter_order_menu_item_and_more",
+        "description": "backend.base.migrations.0004_order_order_time_alter_order_menu_item_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0003_remove_dishmodel_serving_time_and_more\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"order\",\n            name=\"order_time\",\n            field=models.DateTimeField(default=django.utils.timezone.now),\n        ),",
+        "detail": "backend.base.migrations.0004_order_order_time_alter_order_menu_item_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0005_alter_order_menu_item",
+        "description": "backend.base.migrations.0005_alter_order_menu_item",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0004_order_order_time_alter_order_menu_item_and_more\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"order\",\n            name=\"menu_item\",\n            field=models.ForeignKey(\n                on_delete=django.db.models.deletion.CASCADE, to=\"base.dishmodel\"",
+        "detail": "backend.base.migrations.0005_alter_order_menu_item",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0006_remove_order_order_time_remove_table_state_and_more",
+        "description": "backend.base.migrations.0006_remove_order_order_time_remove_table_state_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0005_alter_order_menu_item\"),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name=\"order\",\n            name=\"order_time\",\n        ),\n        migrations.RemoveField(",
+        "detail": "backend.base.migrations.0006_remove_order_order_time_remove_table_state_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0007_remove_dishmodel_serving_time_and_more",
+        "description": "backend.base.migrations.0007_remove_dishmodel_serving_time_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0006_remove_order_order_time_remove_table_state_and_more\"),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name=\"dishmodel\",\n            name=\"serving_time\",\n        ),\n        migrations.RemoveField(",
+        "detail": "backend.base.migrations.0007_remove_dishmodel_serving_time_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0008_delete_book_delete_detailsmodel_remove_note_user_and_more",
+        "description": "backend.base.migrations.0008_delete_book_delete_detailsmodel_remove_note_user_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0007_remove_dishmodel_serving_time_and_more\"),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name=\"Book\",\n        ),\n        migrations.DeleteModel(\n            name=\"DetailsModel\",",
+        "detail": "backend.base.migrations.0008_delete_book_delete_detailsmodel_remove_note_user_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0009_delete_menuitem_order_order_time_table_state",
+        "description": "backend.base.migrations.0009_delete_menuitem_order_order_time_table_state",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0008_delete_book_delete_detailsmodel_remove_note_user_and_more\"),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name=\"MenuItem\",\n        ),\n        migrations.AddField(\n            model_name=\"order\",",
+        "detail": "backend.base.migrations.0009_delete_menuitem_order_order_time_table_state",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0010_waitermodel",
+        "description": "backend.base.migrations.0010_waitermodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0009_delete_menuitem_order_order_time_table_state\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"WaiterModel\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "backend.base.migrations.0010_waitermodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0011_table_order_state",
+        "description": "backend.base.migrations.0011_table_order_state",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0010_waitermodel\"),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name=\"table\",\n            name=\"order_state\",\n            field=models.CharField(\n                choices=[",
+        "detail": "backend.base.migrations.0011_table_order_state",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0012_alter_table_order_state",
+        "description": "backend.base.migrations.0012_alter_table_order_state",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0011_table_order_state\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"table\",\n            name=\"order_state\",\n            field=models.CharField(\n                choices=[",
+        "detail": "backend.base.migrations.0012_alter_table_order_state",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0013_alter_table_order_state",
+        "description": "backend.base.migrations.0013_alter_table_order_state",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0012_alter_table_order_state\"),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name=\"table\",\n            name=\"order_state\",\n            field=models.CharField(\n                choices=[",
+        "detail": "backend.base.migrations.0013_alter_table_order_state",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0014_orderbackupmodel",
+        "description": "backend.base.migrations.0014_orderbackupmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        (\"base\", \"0013_alter_table_order_state\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"OrderBackupModel\",\n            fields=[\n                (",
+        "detail": "backend.base.migrations.0014_orderbackupmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0015_remove_orderbackupmodel_order_date_and_more",
+        "description": "backend.base.migrations.0015_remove_orderbackupmodel_order_date_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0014_orderbackupmodel\"),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name=\"orderbackupmodel\",\n            name=\"order_date\",\n        ),\n        migrations.RemoveField(",
+        "detail": "backend.base.migrations.0015_remove_orderbackupmodel_order_date_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.base.migrations.0016_rename_confirmedordermodel_customerordermodel",
+        "description": "backend.base.migrations.0016_rename_confirmedordermodel_customerordermodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"base\", \"0015_remove_orderbackupmodel_order_date_and_more\"),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name=\"ConfirmedOrderModel\",\n            new_name=\"CustomerOrderModel\",\n        ),\n    ]",
+        "detail": "backend.base.migrations.0016_rename_confirmedordermodel_customerordermodel",
+        "documentation": {}
+    },
+    {
+        "label": "BaseConfig",
+        "kind": 6,
+        "importPath": "backend.base.apps",
+        "description": "backend.base.apps",
+        "peekOfCode": "class BaseConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'base'",
+        "detail": "backend.base.apps",
+        "documentation": {}
+    },
+    {
+        "label": "WaiterModel",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class WaiterModel(models.Model):\n    username = models.CharField(max_length=50, unique=True)\n    password = models.CharField(max_length=50)\n    contact_no = models.CharField(max_length=10)\n    is_active = models.BooleanField(default=False)\n    def __str__(self):\n        return self.username\ndef menu_upload_path(instance, filename):\n    return '/'.join(['menuImage', str(instance.name), filename])\nclass DishModel(models.Model):",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "DishModel",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class DishModel(models.Model):\n    MENU_CATEGORY_CHOICES = [\n        ('appetizers', 'Appetizers'),\n        ('main_course', 'Main Course'),\n        ('desserts', 'Desserts'),\n        ('beverages', 'Beverages'),\n    ]\n    STATUS_CHOICES = [\n        ('available', 'Available'),\n        ('unavailable', 'Unavailable'),",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class Table(models.Model):\n    TABLE_STATES = [\n        ('Empty', 'Empty'),\n        ('Dining', 'Dining'),\n    ]\n    ORDER_STATES = [\n        ('All','All'),\n        ('Order','Order'),\n        ('Cook','Cook'),\n        ('Prepared','Prepared'),",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class Order(models.Model):\n    table = models.ForeignKey(Table, on_delete=models.CASCADE, null=True)\n    menu_item = models.ForeignKey(DishModel, on_delete=models.CASCADE)\n    counter = models.IntegerField(default=0)\n    order_time = models.DateTimeField(default=timezone.now)\n    def __str__(self):\n        return f\"Order for Table {self.table.table_no}: {self.menu_item.name}\"\nclass CustomerOrderModel(models.Model):\n    table = models.ForeignKey(Table, on_delete=models.CASCADE, null=True)\n    menu_item = models.ForeignKey(DishModel, on_delete=models.CASCADE)",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerOrderModel",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class CustomerOrderModel(models.Model):\n    table = models.ForeignKey(Table, on_delete=models.CASCADE, null=True)\n    menu_item = models.ForeignKey(DishModel, on_delete=models.CASCADE)\n    counter = models.IntegerField(default=0)\n    order_time = models.DateTimeField(default=timezone.now)\n    def __str__(self):\n        return f\"Order for Table {self.table.table_no}: {self.menu_item.name}\"\nclass OrderBackupModel(models.Model):\n    table = models.ForeignKey(Table, on_delete=models.CASCADE, null=True)\n    menu_item = models.ForeignKey(DishModel, on_delete=models.CASCADE)",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderBackupModel",
+        "kind": 6,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "class OrderBackupModel(models.Model):\n    table = models.ForeignKey(Table, on_delete=models.CASCADE, null=True)\n    menu_item = models.ForeignKey(DishModel, on_delete=models.CASCADE)\n    counter = models.IntegerField(default=0)\n    order_time = models.DateTimeField(default=timezone.now)\n    def __str__(self):\n        return f\"Order for Table {self.table.table_no}: {self.menu_item.name}\"\n#===================================================================#\n# class RestaurantModel(models.Model):\n#     num_of_tables = models.IntegerField()",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "upload_path",
+        "kind": 2,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "def upload_path(instance, filename):\n    return '/'.join(['covers', str(instance.title) or str(instance.name), filename])\nclass WaiterModel(models.Model):\n    username = models.CharField(max_length=50, unique=True)\n    password = models.CharField(max_length=50)\n    contact_no = models.CharField(max_length=10)\n    is_active = models.BooleanField(default=False)\n    def __str__(self):\n        return self.username\ndef menu_upload_path(instance, filename):",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "menu_upload_path",
+        "kind": 2,
+        "importPath": "backend.base.models",
+        "description": "backend.base.models",
+        "peekOfCode": "def menu_upload_path(instance, filename):\n    return '/'.join(['menuImage', str(instance.name), filename])\nclass DishModel(models.Model):\n    MENU_CATEGORY_CHOICES = [\n        ('appetizers', 'Appetizers'),\n        ('main_course', 'Main Course'),\n        ('desserts', 'Desserts'),\n        ('beverages', 'Beverages'),\n    ]\n    STATUS_CHOICES = [",
+        "detail": "backend.base.models",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir] + os.environ.get(\"PATH\", \"\").split(os.pathsep))\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\Lib\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "backend.project-dir.venv.Scripts.activate_this",
+        "description": "backend.project-dir.venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "backend.project-dir.venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.manage",
+        "description": "backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"backend.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "backend.manage",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,64 @@
+:root {
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+  --blue-color: #4287f5;
+  --green-color: #33cc33;
+  --purple-color: #a45cff;
+  --red-color: #ff3333;
+  --teal-color: #00cccc;
+}
+
+.tableStat-container {
+  background-color: var(--yellow-color);
+  width: max-content;
+  border-radius: 10px;
+  box-shadow: 4px 5px 10px var(--yellow-color);
+  padding: 1rem 1rem;
+}
+
+.tableStat-container .title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--black-color);
+}
+
+.tableStat-component,
+.tableStat-table-component {
+  display: inline-block;
+}
+
+.tableStat-component button {
+  background-color: white;
+  box-shadow: 4px 6px 10px var(--yellow-color);
+  height: 9.5rem;
+  width: 9.5rem;
+  margin: 0.9rem .6rem;
+  border: none;
+  border: 0.1px groove pink;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tableStat-component .tableStat-top {
+  margin-top: -5px;
+}
+
+.tableStat-top .tableStat-number {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: var(--black-color);
+}
+
+.tableStat-component .tableStat-middle {
+  height: 3rem;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+  /* padding-top: .5rem; */
+  color: var(--black-color);
+}
