@@ -21,9 +21,8 @@ const WorkBarContextApp = () => {
     menuCategory: "",
     status: "",
     description: "",
-    cover: null
+    cover: null,
   });
-
 
   const [waiters, setWaiters] = useState([]);
   const [editWaiter, setEditWaiter] = useState({
@@ -32,7 +31,6 @@ const WorkBarContextApp = () => {
     contact_no: "",
     is_active: "",
   });
-
 
   useEffect(() => {
     const fetchData = async () => {
@@ -54,7 +52,6 @@ const WorkBarContextApp = () => {
         setWaiters(waiterData);
 
         // ... additional fetches for other data
-
       } catch (error) {
         console.error(error);
       }
@@ -87,16 +84,23 @@ const WorkBarContextApp = () => {
     setActiveMenuCat,
     dishes,
     setDishes,
-    editItem,setEditItem,
-    selectedTable,setSelectedTable,
-    orderTableStatus,setOrderTableStatus,
-    tables,setTables,
-    orders,setOrders,
+    editItem,
+    setEditItem,
+    selectedTable,
+    setSelectedTable,
+    orderTableStatus,
+    setOrderTableStatus,
+    tables,
+    setTables,
+    orders,
+    setOrders,
     menuItems,
     setMenuItems,
     getOrderTime,
-    waiters, setWaiters,
-    editWaiter, setEditWaiter
+    waiters,
+    setWaiters,
+    editWaiter,
+    setEditWaiter,
   };
 
   return (

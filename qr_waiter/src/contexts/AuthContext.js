@@ -4,8 +4,8 @@ export const AuthContext = createContext();
 
 const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  // const API_ENDPOINT = "http://127.0.0.1:8000/";
-  const API_ENDPOINT = "http://192.168.1.74:8000/";
+  const API_ENDPOINT = "http://127.0.0.1:8000/";
+  // const API_ENDPOINT = "http://192.168.1.74:8000/";
 
   const [error, setError] = useState(null);
 
@@ -16,7 +16,6 @@ const AuthContextProvider = ({ children }) => {
   const closeErrorDialog = () => {
     setError(null);
   };
-
 
   // Check if there is a user in localStorage on component mount
   useEffect(() => {
@@ -63,7 +62,8 @@ const AuthContextProvider = ({ children }) => {
     user,
     authenticateUser,
     logoutUser,
-    error, closeErrorDialog
+    error,
+    closeErrorDialog,
   };
 
   return (
@@ -74,4 +74,3 @@ const AuthContextProvider = ({ children }) => {
 };
 
 export default AuthContextProvider;
-

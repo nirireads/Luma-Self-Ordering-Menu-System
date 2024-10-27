@@ -69,7 +69,7 @@ textarea:focus {
 
 .menuContainer form .form-button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .menuContainer form button {
   font: 1.5rem;

@@ -1,71 +1,82 @@
 :root {
-    --black-color: #454545;
-    --orange-color: #ff6000;
-    --lightOrange-color: #ffa559;
-    --pink-color: #ffe6c7;
-    --yellow-color: #ffd93d;
-  }
-  
-  .admin-order-container {
-    padding: 2rem 1rem 1rem 1rem;
-  }
-  
-  .admin-order-container .title {
-    font-weight: 600;
-    font-size: 2rem;
-    color: var(--black-color);
-  }
-  
-  .admin-order-container div.sort {
-    border: 1px solid var(--lightOrange-color);
-    border-radius: 10px;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .admin-order-container .sort .nav {
-    padding: 10px;
-    width: 100%;
-    border-radius: 10px;
-    gap: 10px;
-  }
-  
-  .admin-order-container .sort .nav-pills .nav-link.active,
-  .nav-pills .show > .-nav-link {
-    background-color: var(--orange-color);
-    color: white;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .admin-order-container .nav .nav-item a {
-    color: var(--orange-color);
-    font-size: 1.3rem;
-  }
-  
-  .admin-order-container .order-table {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    /* border-radius: 10px; */
-    padding: .7rem;
-    min-height: 75vh;
-    max-height: 75vh;
-    overflow: auto;
-    display: block;
-  }
-  
-  
-  /* Styles for the scrollbar track */
-  .order-table::-webkit-scrollbar {
-      width: 5px; /* width of the scrollbar */
-    }
-    
-    /* Styles for the scrollbar thumb (the draggable handle) */
-    .order-table::-webkit-scrollbar-thumb {
-      background-color: #888;
-    }
-    
-    /* Hover styles for the scrollbar thumb */
-    .order-table::-webkit-scrollbar-thumb:hover {
-      background-color: var(--black-color); /* color of the thumb on hover */
-    }
-    
+  --black-color: #454545;
+  --orange-color: #ff6000;
+  --lightOrange-color: #ffa559;
+  --pink-color: #ffe6c7;
+  --yellow-color: #ffd93d;
+}
+
+.admin-order-container {
+  padding: 1rem;
+}
+
+.admin-order-container .title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  justify-content: center;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.admin-order-container div.sort {
+  /* border: 1px solid var(--lightOrange-color);
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.admin-order-container .sort .nav {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-order-container .sort .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--orange-color);
+  color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.admin-order-container .nav .nav-item a {
+  color: var(--orange-color);
+  font-size: 1.2rem;
+}
+
+.admin-order-container .order-table {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.admin-order-container .order-table .no-tables {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem 0;
+  font-size: 1rem;
+}
+.admin-order-container .order-table .table-box {
+}
+
+/* Styles for the scrollbar track */
+.order-table::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+}
+
+/* Styles for the scrollbar thumb (the draggable handle) */
+.order-table::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Hover styles for the scrollbar thumb */
+.order-table::-webkit-scrollbar-thumb:hover {
+  background-color: var(--black-color); /* color of the thumb on hover */
+}

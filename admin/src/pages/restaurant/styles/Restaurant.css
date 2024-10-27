@@ -7,12 +7,14 @@
 }
 
 .restaurant-container {
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 1rem;
 }
 
 .restaurant-container .title {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  justify-content: center;
+  text-align: center;
   color: var(--black-color);
 }
 
@@ -20,14 +22,15 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   padding: 0.7rem;
   margin-top: 2.5rem;
-  min-height: 84vh;
-  max-height: 84vh;
+  height: 100%;
   overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.restaurant-container .restaurant-table .qrTable {
+/* .restaurant-container .restaurant-table .qrTable {
   display: inline-block;
-}
+} */
 
 /* Styles for the scrollbar track */
 .restaurant-table::-webkit-scrollbar {

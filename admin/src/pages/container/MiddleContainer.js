@@ -5,7 +5,6 @@ import OrderPage from "../order/OrderPage";
 import Waiter from "../waiter/Waiter";
 import Restaurant from "../restaurant/Restaurant";
 
-
 import { MainContext } from "../../context/MainContext";
 
 function MiddleContainer() {
@@ -17,7 +16,7 @@ function MiddleContainer() {
         {activeNavbar === "home" ? (
           <OrderPage />
         ) : activeNavbar === "menu" ? (
-            <MenuPage />
+          <MenuPage />
         ) : activeNavbar === "waiter" ? (
           <Waiter />
         ) : activeNavbar === "settings" ? (
@@ -27,7 +26,6 @@ function MiddleContainer() {
         )}
       </>
     </div>
-
   );
 }
 

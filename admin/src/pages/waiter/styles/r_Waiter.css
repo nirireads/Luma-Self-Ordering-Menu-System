@@ -46,7 +46,7 @@ textarea:focus {
 
 .waiterContainer form .form-button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .waiterContainer form button {
   font: 1.5rem;

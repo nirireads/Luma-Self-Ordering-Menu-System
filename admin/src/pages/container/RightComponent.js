@@ -20,9 +20,17 @@ function RightContainer() {
         {activeNavbar === "home" ? (
           <R_OrderPage />
         ) : activeNavbar === "menu" ? (
-          editItem ? <R_EditMenu /> : <R_MenuPage />
+          editItem ? (
+            <R_EditMenu />
+          ) : (
+            <R_MenuPage />
+          )
         ) : activeNavbar === "waiter" ? (
-          editWaiter ? <EditWaiter /> : <R_Waiter />
+          editWaiter ? (
+            <EditWaiter />
+          ) : (
+            <R_Waiter />
+          )
         ) : activeNavbar === "settings" ? (
           <R_Restaurant />
         ) : (

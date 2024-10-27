@@ -7,40 +7,40 @@
 }
 
 .waiter-container {
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 0.5rem;
 }
 
 .waiter-container .title {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  justify-content: center;
+  text-align: center;
   color: var(--black-color);
 }
 
 .waiter-container .waiter-table {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   padding: 0.7rem;
-  margin-top: 2.5rem;
-  min-height: 84vh;
-  max-height: 84vh;
+  margin-top: 2rem;
+  height: 100%;
   overflow: auto;
   display: block;
 }
 
 .waiter-table .waiter-item {
-  border: 1px solid var(--pink-color);
   margin-bottom: 1rem;
   border-radius: 10px;
   box-shadow: 0.5px 2px 3px gray;
   display: flex;
-  padding: 12px 15px;
+  padding: 0.8rem;
   width: 100%;
-  min-height: 10rem;
-  max-height: 10rem;
 }
 
 .waiter-table .waiter-content {
   width: 90%;
-  padding: 15px 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
 .waiter-table .waiter-content .waiter-name {
@@ -49,7 +49,7 @@
 }
 
 .waiter-table .waiter-content .waiter-contact {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
   color: var(--orange-color);
 }
@@ -62,18 +62,24 @@
   font-weight: 500;
   color: var(--orange-color);
 }
-
-.waiter-table .waiter-action {
-  display: flexbox;
-  justify-content: end;
+.waiter-table .waiter-checkbox span {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
 }
 
-.waiter-table .waiter-action input {
-  margin-right: 10px;
+.waiter-table .waiter-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 1rem;
 }
 
 .waiter-table .waiter-action .action-button {
-  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 5rem;
   height: 2rem;
   border-radius: 5px;
@@ -84,21 +90,5 @@
 }
 
 .waiter-table .waiter-action .action-button:hover {
-  /* color: black; */
   background-color: var(--orange-color);
-}
-
-/* Styles for the scrollbar track */
-.waiter-table::-webkit-scrollbar {
-  width: 5px; /* width of the scrollbar */
-}
-
-/* Styles for the scrollbar thumb (the draggable handle) */
-.waiter-table::-webkit-scrollbar-thumb {
-  background-color: #888;
-}
-
-/* Hover styles for the scrollbar thumb */
-.waiter-table::-webkit-scrollbar-thumb:hover {
-  background-color: var(--black-color); /* color of the thumb on hover */
 }

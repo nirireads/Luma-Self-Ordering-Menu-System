@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import "./styles/Waiter.css";
-import { AuthContext } from './../../context/AuthContext';
+import { AuthContext } from "./../../context/AuthContext";
 import { WorkBarContext } from "../../context/WorkBarContext";
 
 function Waiter() {
   const { API_ENDPOINT } = useContext(AuthContext);
-  const { waiters, setWaiters, setEditWaiter, editWaiter } = useContext(WorkBarContext);
+  const { waiters, setWaiters, setEditWaiter, editWaiter } =
+    useContext(WorkBarContext);
 
   const handleEdit = (waiterId) => {
     const selectedItem = waiters.find((waiter) => waiter.id === waiterId);
@@ -48,7 +49,9 @@ function Waiter() {
         });
         setWaiters(updatedWaiters);
 
-        const updatedWaiter = updatedWaiters.find((waiter) => waiter.id === waiterId);
+        const updatedWaiter = updatedWaiters.find(
+          (waiter) => waiter.id === waiterId
+        );
 
         const response = await fetch(`${API_ENDPOINT}api/waiter/${waiterId}/`, {
           method: "PUT",
@@ -65,15 +68,16 @@ function Waiter() {
         console.log(error);
       }
     } else {
-      console.log("Toggle active status cancelled for waiter with ID:", waiterId);
+      console.log(
+        "Toggle active status cancelled for waiter with ID:",
+        waiterId
+      );
     }
   };
 
-
-
   return (
     <div className="waiter-container">
-      <div className="row title">Waiter Listing</div>
+      <div className="row title">Waiter Registration</div>
 
       <div className="row waiter-table">
         {waiters.map((waiter) => (
@@ -81,8 +85,6 @@ function Waiter() {
             <div className="waiter-content">
               <div className="waiter-name">@{waiter.username}</div>
               <div className="waiter-contact">{waiter.contact_no}</div>
-            </div>
-            <div className="waiter-action">
               <div className="waiter-checkbox">
                 <input
                   type="checkbox"
@@ -91,6 +93,8 @@ function Waiter() {
                 />
                 <span>Active</span>
               </div>
+            </div>
+            <div className="waiter-action">
               <div
                 className="action-button"
                 onClick={() => handleEdit(waiter.id)}
@@ -107,7 +111,6 @@ function Waiter() {
           </div>
         ))}
       </div>
-
     </div>
   );
 }
