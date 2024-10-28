@@ -1,21 +1,22 @@
 .viewTable-container .viewTable-title {
-    background-color: black;
-    height: 2.5rem;
-    color: yellow;
-  }
-  
+  background-color: black;
+  height: 2.5rem;
+  color: yellow;
+}
+
 .viewTable-container .viewTable-title span {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0.2cm;
-    padding-left: 1.5rem;
-  }
-  
-  .viewTable-container .table-container {
-    min-height: 82vh;
-    overflow: scroll;
-    padding: 0.7rem;
-    margin-bottom: 3.8rem;
-  }
-  
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2cm;
+  padding-left: 1.5rem;
+}
+
+.viewTable-container .table-container {
+  /* min-height: 82vh;
+    overflow: scroll; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.7rem;
+  margin-bottom: 3.8rem;
+}

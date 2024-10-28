@@ -8,7 +8,7 @@
 
 .table-component,
 .empty-table-component {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .table-component button,

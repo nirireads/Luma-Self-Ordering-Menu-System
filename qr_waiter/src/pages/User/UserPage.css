@@ -1,5 +1,9 @@
 .user-container .table-container {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .user-container .user-profile {
@@ -28,10 +32,10 @@
   width: 55%;
   height: 3.5rem;
   border: none;
-  border-radius: 23px;
+  border-radius: 10px;
   justify-content: center;
   background-color: orange;
   color: white;
-  font-size: 1.3rem;
-  margin-top: 10rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
 }

@@ -13,8 +13,8 @@
 }
 
 .viewTable-container .table-container {
-  min-height: 82vh;
-  overflow: scroll;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0.7rem;
   margin-bottom: 3.8rem;
 }

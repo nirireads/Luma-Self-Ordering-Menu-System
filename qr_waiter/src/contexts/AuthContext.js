@@ -4,8 +4,8 @@ export const AuthContext = createContext();
 
 const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const API_ENDPOINT = "http://127.0.0.1:8000/";
-  // const API_ENDPOINT = "http://192.168.1.74:8000/";
+  // const API_ENDPOINT = "http://127.0.0.1:8000/";
+  const API_ENDPOINT = "http://192.168.1.72:8000/";
 
   const [error, setError] = useState(null);
 
