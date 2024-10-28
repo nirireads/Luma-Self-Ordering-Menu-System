@@ -199,19 +199,20 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-CORS_ALLOWED_ORIGINS = [
-    # 3001 => Waiter 
-    # 3002 => Menu
-    # 3003 => Restaurant
+# CORS_ALLOWED_ORIGINS = [
+# #     # 3001 => Waiter 
+# #     # 3002 => Menu
+# #     # 3003 => Restaurant
+#     "http://localhost:3000",
+#     "http://localhost:3001",
+#     "http://localhost:3002",
+#     "http://localhost:3003",
 
-    "http://localhost:3000",
-    "http://localhost:3001",
-    "http://localhost:3002",
-    "http://localhost:3003",
+#     "http://192.168.1.72:3000",
+#     "http://192.168.1.72:3001",
+#     "http://192.168.1.72:3002",
+#     "http://192.168.1.72:3003",
+# ]
 
-    # "http://192.168.18.17:3000",
-    "http://192.168.1.74:3000",
-    "http://192.168.1.74:3001",
-    "http://192.168.1.74:3002",
-    # "http://192.168.1.85:3003",
-]
+CORS_ALLOW_ALL_ORIGINS = True
+
