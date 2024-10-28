@@ -7,23 +7,22 @@
 
 .order-top-container .order-table {
   border-radius: 23px;
-  box-shadow: .5px 1px 2px  orangered;
+  box-shadow: 0.5px 1px 2px orangered;
   border: 1px solid orangered;
   display: flex;
-  gap:3rem;
+  gap: 3rem;
   height: 5rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .order-top-container .order-table-icon img {
   height: 4rem;
-  border-radius: 25%;  
+  border-radius: 25%;
 }
 
 .order-table .order-table-content {
   /* border: 1px solid ; */
   color: orangered;
-
 }
 
 .order-table-content .table-no {
@@ -31,35 +30,28 @@
   font-weight: 600;
 }
 
-.order-table-content .selected-table-no{
+.order-table-content .selected-table-no {
   font-size: 1.7rem;
   font-weight: 900;
 }
 
-
-
-
-
-
-
 /* MENU CARD */
 .menu-card {
   display: flex;
-  padding: 10px 15px;
+  align-items: center;
+  justify-content: center;
+  /* paddisng: 10px 15px; */
   margin-bottom: 4rem;
 }
 
-.menu-card .menu-item{
+.menu-card .menu-item {
   border-radius: 20px;
-  /* height: 10rem; */
   display: flex;
   margin-bottom: 15px;
   width: 100%;
-  padding:10px;
+  padding: 10px;
   box-shadow: 1px 2px 3px gray;
-
 }
-
 
 .menu-card img.menu-card-image {
   max-width: 100px;
@@ -70,17 +62,16 @@
   border-radius: 10px;
 }
 
-.menu-card .item-info{
+.menu-card .item-info {
   padding: 0 15px;
   width: 100%;
   text-align: left;
 }
 
-
 .menu-card-name {
   font-size: 18px;
   font-weight: 600;
-}  
+}
 
 /* .menu-card-price {
   font-size: 16px;
@@ -103,7 +94,7 @@
   cursor: pointer;
 }
 
-.menu-card-counter-button span{
+.menu-card-counter-button span {
   font-size: 1.9rem;
   font-weight: 600;
 }
@@ -114,7 +105,7 @@
   width: 30px;
   text-align: center;
   display: inline-block;
-  margin: 0 .3rem;
+  margin: 0 0.3rem;
 }
 
 .menu-card-add-button {

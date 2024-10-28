@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Redirect } from "react-router-dom";
-import dine from './dine.png';
+import dine from "./dine.png";
 import "./styles/OrderPage.css";
 import ErrorDialog from "../../components/errorDialog";
 import { MainContext } from "../../contexts/mainContext";
 
 function Order() {
-  const { API_ENDPOINT, tableNo,fetchCustomerOrdersByTable } = useContext(MainContext);
+  const { API_ENDPOINT, tableNo, fetchCustomerOrdersByTable } =
+    useContext(MainContext);
   const [orders, setOrders] = useState([]);
   const [error, setError] = useState(null);
 
@@ -28,22 +29,28 @@ function Order() {
       })
       .then(async (data) => {
         // Fetch and associate dish information with each order
-        const updatedOrders = await Promise.all(data.map(async (order) => {
-          try {
-            const dishResponse = await fetch(API_ENDPOINT + `api/dish/${order.menu_item}`);
-            if (!dishResponse.ok) {
-              throw new Error("Error fetching dish information");
+        const updatedOrders = await Promise.all(
+          data.map(async (order) => {
+            try {
+              const dishResponse = await fetch(
+                API_ENDPOINT + `api/dish/${order.menu_item}`
+              );
+              if (!dishResponse.ok) {
+                throw new Error("Error fetching dish information");
+              }
+              const dishData = await dishResponse.json();
+              return { ...order, dish: dishData };
+            } catch (error) {
+              console.error("Error fetching dish information:", error);
+              handleError(
+                "An error occurred while fetching data from the server."
+              );
+              return { ...order, dish: null }; // Include a placeholder for dish
             }
-            const dishData = await dishResponse.json();
-            return { ...order, dish: dishData };
-          } catch (error) {
-            console.error("Error fetching dish information:", error);
-            handleError("An error occurred while fetching data from the server.");
-            return { ...order, dish: null }; // Include a placeholder for dish
-          }
-        }));
+          })
+        );
 
-        // console.log(updatedOrders);
+        console.log("customers order", updatedOrders);
         setOrders(updatedOrders);
       })
       .catch((error) => {
@@ -60,17 +67,17 @@ function Order() {
     };
 
     fetch(API_ENDPOINT + `api/customer_orders/update/${orderId}/`, {
-      method: 'PUT',
+      method: "PUT",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(orderData),
     })
       .then((response) => {
         if (response.ok) {
-          console.log('Order updated successfully on the server');
+          console.log("Order updated successfully on the server");
         } else {
-          throw new Error('Failed to update order on the server');
+          throw new Error("Failed to update order on the server");
         }
       })
       .catch((error) => {
@@ -80,15 +87,24 @@ function Order() {
   };
 
   const handleOrderAdd = (menuItem) => {
-    const existingOrderIndex = orders.findIndex((order) => order.menu_item === menuItem.menu_item);
+    console.log("menuitem param", menuItem);
+    console.log("order", orders);
+    const existingOrderIndex = orders.findIndex(
+      (order) => order.menu_item === menuItem.menu_item
+    );
+
+    console.log("existing order indec", existingOrderIndex);
 
     if (existingOrderIndex !== -1) {
-      // If the order already exists, update its counter
       const updatedOrders = [...orders];
-      // updatedOrders[existingOrderIndex].counter ; // Update the counter
+
+      console.log("updated order", updatedOrders);
 
       // Update the order on the server
-      updateOrderOnServer(updatedOrders[existingOrderIndex].id, updatedOrders[existingOrderIndex].counter);
+      updateOrderOnServer(
+        updatedOrders[existingOrderIndex].id,
+        updatedOrders[existingOrderIndex].counter
+      );
 
       // Update the state with the modified orders array
       setOrders(updatedOrders);
@@ -98,30 +114,30 @@ function Order() {
     }
   };
 
-
-
   const deleteCustomerOrder = async (orderId) => {
     try {
-      const response = await fetch(`${API_ENDPOINT}api/customer_orders/delete/${orderId}/`, {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
+      const response = await fetch(
+        `${API_ENDPOINT}api/customer_orders/delete/${orderId}/`,
+        {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (response.ok) {
-        console.log('Order deleted successfully from the server');
+        console.log("Order deleted successfully from the server");
         return true;
       } else {
-        console.error('Failed to delete order from the server');
+        console.error("Failed to delete order from the server");
         return false;
       }
     } catch (error) {
-      console.error('Error deleting order from the server:', error);
+      console.error("Error deleting order from the server:", error);
       return false;
     }
   };
-
 
   const handleOrderDelete = async (menuItem) => {
     const orderIdToDelete = menuItem.id;
@@ -131,15 +147,16 @@ function Order() {
 
     if (serverDeletionSuccessful) {
       // Filter out the deleted order from the local state
-      const updatedOrders = orders.filter((order) => order.id !== orderIdToDelete);
+      const updatedOrders = orders.filter(
+        (order) => order.id !== orderIdToDelete
+      );
       setOrders(updatedOrders);
       fetchCustomerOrdersByTable(tableNo);
     } else {
       // Handle deletion failure, e.g., show an error message
-      console.error('Failed to delete order from the server');
+      console.error("Failed to delete order from the server");
     }
   };
-
 
   const handleCounterChange = (orderItem, newValue) => {
     // Ensure newValue is a non-negative integer
@@ -153,19 +170,20 @@ function Order() {
       fetchCustomerOrdersByTable(tableNo);
     }
   };
-  
 
   return (
     <div>
       {/* TABLE NUMBER CONTAINER */}
-      <div className='order-top-container'>
-        <div className='order-table'>
-          <div className='order-table-icon'>
+      <div className="order-top-container">
+        <div className="order-table">
+          <div className="order-table-icon">
             <img src={dine} alt="dining-icon" />
           </div>
-          <div className='order-table-content'>
-            <div className='table-no'>Table No</div>
-            <div className='selected-table-no'>{tableNo < 10 ? `0${tableNo}` : tableNo}</div>
+          <div className="order-table-content">
+            <div className="table-no">Table No</div>
+            <div className="selected-table-no">
+              {tableNo < 10 ? `0${tableNo}` : tableNo}
+            </div>
           </div>
         </div>
       </div>
@@ -182,45 +200,64 @@ function Order() {
                 {orders.map((item) => (
                   <div key={item.id} className="menu-item">
                     {item.dish && item.dish.cover && (
-                      <img src={`${API_ENDPOINT}${item.dish.cover}`} className='menu-card-image' alt="loading" />
+                      <img
+                        src={`${API_ENDPOINT}${item.dish.cover}`}
+                        className="menu-card-image"
+                        alt="loading"
+                      />
                     )}
                     <div className="item-info">
-                      <span className="menu-card-name">{item.dish ? item.dish.name : "Dish Name Not Available"}</span>                      {/* <span className="menu-card-price">{item.dish.price}</span> */}
+                      <span className="menu-card-name">
+                        {item.dish ? item.dish.name : "Dish Name Not Available"}
+                      </span>{" "}
+                      {/* <span className="menu-card-price">{item.dish.price}</span> */}
                       <div className="menu-card-counter">
-                        <button className='menu-card-counter-button'
-                          onClick={() => handleCounterChange(item, item.counter - 1)}
+                        <button
+                          className="menu-card-counter-button"
+                          onClick={() =>
+                            handleCounterChange(item, item.counter - 1)
+                          }
                         >
                           <span>-</span>
                         </button>
-                        <span className='menu-card-counter-value'>{item.counter}</span>
-                        <button className='menu-card-counter-button'
-                          onClick={() => handleCounterChange(item, item.counter + 1)}
+                        <span className="menu-card-counter-value">
+                          {item.counter}
+                        </span>
+                        <button
+                          className="menu-card-counter-button"
+                          onClick={() =>
+                            handleCounterChange(item, item.counter + 1)
+                          }
                         >
                           <span>+</span>
                         </button>
                       </div>
                     </div>
                     <button
-                      className='menu-card-add-button'
-                      onClick={item.counter > 0 ? () => handleOrderAdd(item) : () => handleOrderDelete(item)}
+                      className="menu-card-add-button"
+                      onClick={
+                        item.counter > 0
+                          ? () => handleOrderAdd(item)
+                          : () => handleOrderDelete(item)
+                      }
                     >
-                      {item.counter > 0 ? <i className="fa fa-plus" aria-hidden="true" ></i> : <i className="fa fa-trash-o" aria-hidden="true"></i>}
+                      {item.counter > 0 ? (
+                        <i className="fa fa-plus" aria-hidden="true"></i>
+                      ) : (
+                        <i className="fa fa-trash-o" aria-hidden="true"></i>
+                      )}
                     </button>
                   </div>
-
                 ))}
               </div>
             </div>
-
-          )
+          );
         }
       })()}
 
-
       {error && <ErrorDialog message={error} onClose={closeErrorDialog} />}
     </div>
-  )
-
+  );
 }
 
 export default Order;

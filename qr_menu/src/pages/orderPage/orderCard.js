@@ -15,14 +15,10 @@ function FoodCard({ id, image, name }) {
   };
 
   return (
-    <div className="card mx-3 my-2 order-card" key={id}>
+    <div className="card order-card" key={id}>
       <div className="row">
         <div className="col-4">
-          <img
-            src={image}
-            className="img-fluid rounded-start"
-            alt="food-img"
-          />
+          <img src={image} className="img-fluid rounded-start" alt="food-img" />
         </div>
 
         <div className="col-7 card-text">

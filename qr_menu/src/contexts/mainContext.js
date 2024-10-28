@@ -4,8 +4,8 @@ import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 export const MainContext = createContext();
 
 const ContextApp = ({ children }) => {
-  const API_ENDPOINT = "http://127.0.0.01:8000/";
-  // const API_ENDPOINT = "http://192.168.1.74:8000/";
+  // const API_ENDPOINT = "http://127.0.0.01:8000/";
+  const API_ENDPOINT = "http://192.168.1.72:8000/";
   const [activeCat, setActiveCat] = useState("all");
   const [filteredMenu, setFilteredMenu] = useState([]);
   const [tableNo, setTableNo] = useState();
@@ -47,12 +47,11 @@ const ContextApp = ({ children }) => {
         localStorage.removeItem("tableNumberExpiration");
       }
     }
-
-  },[]); // Empty dependency array to run this code only once
+  }, []); // Empty dependency array to run this code only once
 
   useEffect(() => {
     const storedTableNumber = localStorage.getItem("tableNumber");
-    if (!fetchCustomerOrdersByTable(storedTableNumber)){
+    if (!fetchCustomerOrdersByTable(storedTableNumber)) {
       return <Redirect to="/error" />;
     }
   });
@@ -60,33 +59,37 @@ const ContextApp = ({ children }) => {
   const fetchCustomerOrdersByTable = async (tableNo) => {
     try {
       // Fetch customer orders for the specified table number
-      const response = await fetch(`${API_ENDPOINT}api/customer_orders_table/?table=${tableNo}`);
+      const response = await fetch(
+        `${API_ENDPOINT}api/customer_orders_table/?table=${tableNo}`
+      );
+
       if (response.ok) {
         const data = await response.json();
         // Update cartNo based on the length of orders
         setCartNo(data.length);
       } else {
         // Handle the case where the request failed
-        console.error('Failed to fetch customer orders:', response.statusText);
+        console.error("Failed to fetch customer orders:", response.statusText);
       }
     } catch (error) {
       // Handle any network or other errors
-      console.error('Error fetching customer orders:', error);
+      console.error("Error fetching customer orders:", error);
     }
   };
 
   let contextData = {
     API_ENDPOINT,
-    activeCat, setActiveCat,
-    filteredMenu, setFilteredMenu,
+    activeCat,
+    setActiveCat,
+    filteredMenu,
+    setFilteredMenu,
     tableNo, // Make tableNo available in context
-    cartNo, fetchCustomerOrdersByTable
+    cartNo,
+    fetchCustomerOrdersByTable,
   };
 
   return (
-    <MainContext.Provider value={contextData}>
-      {children}
-    </MainContext.Provider>
+    <MainContext.Provider value={contextData}>{children}</MainContext.Provider>
   );
 };
 

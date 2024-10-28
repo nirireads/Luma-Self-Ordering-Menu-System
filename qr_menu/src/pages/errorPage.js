@@ -24,9 +24,11 @@ const linkStyle = {
 function ErrorPage() {
   return (
     <div style={errorContainerStyle}>
-      <h1 style={headingStyle}>Oops! Something went wrong.</h1>
+      <h1 style={headingStyle}>Oops! No Table No Found.</h1>
       <p>We're sorry, but there was an error.</p>
-      <Link to="/" style={linkStyle}>Go back to the home page</Link>
+      <Link to="/" style={linkStyle}>
+        Go back to the home page
+      </Link>
     </div>
   );
 }

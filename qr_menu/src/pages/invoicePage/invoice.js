@@ -12,34 +12,42 @@ function Invoice() {
   const [invoiceState, setInvoiceState] = useState("Unconfirmed");
 
   useEffect(() => {
-    fetch(API_ENDPOINT + `api/getorder/${tableNo}`)
+    fetch(API_ENDPOINT + `api/customer_orders_table/?table=${tableNo}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
+        console.log("invoice", response);
         return response.json();
       })
       .then(async (data) => {
         // Fetch and associate dish information with each order
-        const updatedOrders = await Promise.all(data.map(async (order) => {
-          try {
-            const dishResponse = await fetch(API_ENDPOINT + `api/dish/${order.menu_item}`);
-            if (!dishResponse.ok) {
-              throw Error("Error fetching dish information");
+        const updatedOrders = await Promise.all(
+          data.map(async (order) => {
+            try {
+              const dishResponse = await fetch(
+                API_ENDPOINT + `api/dish/${order.menu_item}`
+              );
+              if (!dishResponse.ok) {
+                throw Error("Error fetching dish information");
+              }
+              const dishData = await dishResponse.json();
+              return { ...order, dish: dishData };
+            } catch (error) {
+              console.error("Error fetching dish information:", error);
+              return { ...order, dish: null }; // Include a placeholder for dish
             }
-            const dishData = await dishResponse.json();
-            return { ...order, dish: dishData };
-          } catch (error) {
-            console.error("Error fetching dish information:", error);
-            return { ...order, dish: null }; // Include a placeholder for dish
-          }
-        }));
+          })
+        );
 
         // Calculate the total price and get the first order time
         let total = 0;
-
+        console.log("updated order s fina", updatedOrders);
         if (updatedOrders.length > 0) {
-          total = updatedOrders.reduce((acc, order) => acc + order.dish.price * order.counter, 0);
+          total = updatedOrders.reduce(
+            (acc, order) => acc + order.dish.price * order.counter,
+            0
+          );
           const firstOrder = updatedOrders[0];
 
           // Parse the ISO format date and time string
@@ -56,11 +64,9 @@ function Invoice() {
           setInvoiceNo(firstInvoiceId);
           setInvoiceOrder(updatedOrders);
           setInvoiceState("Confirmed");
-        }
-        else {
+        } else {
           setInvoiceState("UnConfirmed");
         }
-
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -82,10 +88,11 @@ function Invoice() {
         <div className="invoice-details">
           <div className="table-details">
             <div className="table-number">
-              <span className="table-label">Table No:</span>  {tableNo}
+              <span className="table-label">Table No:</span> {tableNo}
             </div>
             <div className="table-date">
-              <span className="table-label">Date:</span>{firstOrderDate}
+              <span className="table-label">Date:</span>
+              {firstOrderDate}
             </div>
           </div>
         </div>
@@ -117,11 +124,15 @@ function Invoice() {
           <span className="order-stat">{invoiceState}</span>
         </div>
         <div className="total-row">
-          <span style={{ fontWeight: "bold" }}>Total:
-            <span style={{ fontWeight: "bold", color: "green" }}> Rs. {totalPrice} </span>
+          <span style={{ fontWeight: "bold" }}>
+            Total:
+            <span style={{ fontWeight: "bold", color: "green" }}>
+              {" "}
+              Rs. {totalPrice}{" "}
+            </span>
           </span>
         </div>
-      </div >
+      </div>
     </>
   );
 }
