@@ -15,10 +15,9 @@
   text-align: left;
   border: 0.1px groove var(--yellow-color);
   border-radius: 10px;
-  /* height: 50vh;
-  width: 83vh; */
+  height: 50vh;
+  /* width: ; */
   padding: 1.2rem;
-
   box-shadow: 4px 5px 10px var(--yellow-color);
 }
 

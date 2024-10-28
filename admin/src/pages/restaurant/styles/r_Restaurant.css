@@ -1,10 +1,14 @@
 .QR_container {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  height: 93vh;
+  /* height: 93vh; */
   background-color: white;
   margin: 2rem 1rem;
   border-radius: 10px;
-  padding: 50px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .QR_container .title {
@@ -12,6 +16,15 @@
   font-weight: 600;
   text-align: left;
   color: var(--black-color);
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
+.QR_container p {
+  font-weight: 600;
+}
+
+.QR_container .qr-box {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: fit-content;
+}

@@ -8,15 +8,19 @@ function R_Restaurant() {
   let { selectedTable } = useContext(WorkBarContext);
   let { API_ENDPOINT } = useContext(AuthContext);
 
-  const url = `http://${API_ENDPOINT.split('://')[1].split(':')[0]}:3001?tableNumber=${selectedTable}`;
+  const url = `http://${
+    API_ENDPOINT.split("://")[1].split(":")[0]
+  }:3001?tableNumber=${selectedTable}`;
 
   return (
     <div className="QR_container">
-      <h2 className="title">Download QR Code: {selectedTable}</h2>
-      <QrCode tableUrl={url} selectedTable={selectedTable}/>
-      
+      <h2 className="title">Download QR</h2>
+      <p>For Table No. {selectedTable}</p>
+      <div className="qr-box">
+        <QrCode tableUrl={url} selectedTable={selectedTable} />
+      </div>
     </div>
   );
-};
+}
 
 export default R_Restaurant;

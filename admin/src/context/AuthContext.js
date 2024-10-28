@@ -5,8 +5,8 @@ import { useHistory } from "react-router-dom";
 export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
-  // const API_ENDPOINT = "http://192.168.1.92:8000/"
-  const API_ENDPOINT = "http://127.0.0.1:8000/"
+  const API_ENDPOINT = "http://192.168.1.72:8000/";
+  // const API_ENDPOINT = "http://127.0.0.1:8000/"
   // const API_ENDPOINT = "http://192.168.255.175:8000/"
 
   let authState = localStorage.getItem("authTokens")
@@ -92,7 +92,8 @@ const AuthProvider = ({ children }) => {
     authTokens: authTokens,
 
     loginUser: loginUser,
-    logoutUser: logoutUser, setLoading
+    logoutUser: logoutUser,
+    setLoading,
   };
 
   useEffect(() => {

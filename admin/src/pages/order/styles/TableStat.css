@@ -16,7 +16,7 @@
   width: max-content;
   border-radius: 10px;
   box-shadow: 4px 5px 10px var(--yellow-color);
-  padding: 1rem 1rem;
+  /* padding: 1rem rem; */
 }
 
 .tableStat-container .title {
@@ -35,7 +35,7 @@
   box-shadow: 4px 6px 10px var(--yellow-color);
   height: 9.5rem;
   width: 9.5rem;
-  margin: 0.9rem .6rem;
+  margin: 0.9rem 0.6rem;
   border: none;
   border: 0.1px groove pink;
   border-radius: 10px;

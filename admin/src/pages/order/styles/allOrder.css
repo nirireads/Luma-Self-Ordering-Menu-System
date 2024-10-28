@@ -1,4 +1,4 @@
-.grid-container {
+/* .grid-container {
   display: grid;
   gap: 1rem;
   margin: 2rem 1rem;
@@ -35,4 +35,38 @@
   grid-row: 2 / span 2;
   width: max-content;
   height: max-content;
+} */
+
+.dashboard-container .dashboard-box .box-1 .box-2 .pop-item .stat .rev .sum {
+}
+
+.dashboard-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.dashboard-container .dashboard-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard-box .box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.dashboard-box .box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
